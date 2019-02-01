@@ -1,5 +1,4 @@
 package testCases;
-
 import home.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -9,7 +8,6 @@ import route.SelectRoutePage;
 import static common.Base.ad;
 
 public class SelectRoutePageTest extends SelectRoutePage {
-
     HomePage objHomePage;
     SelectRoutePage objSelectRoutePage;
 
@@ -19,9 +17,9 @@ public class SelectRoutePageTest extends SelectRoutePage {
         objSelectRoutePage = PageFactory.initElements(ad, SelectRoutePage.class);
     }
 
-    @Test
-    public void testSelectRoute(){
-        objHomePage.clickGoButton();
-        objSelectRoutePage.selectRoute();
-    }
+//    @Test
+//    public void testSelectRoute(){
+//        objHomePage.clickGoButton();
+//        objSelectRoutePage.selectRoute();
+//    }
 }

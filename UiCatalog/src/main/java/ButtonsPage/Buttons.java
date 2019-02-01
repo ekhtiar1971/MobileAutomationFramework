@@ -4,9 +4,7 @@ import common.Base;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-/**
- * Created by mrahman on 1/15/17.
- */
+
 public class Buttons extends Base {
 
     public void checkUIButton(){

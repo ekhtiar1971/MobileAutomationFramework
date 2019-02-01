@@ -6,9 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-/**
- * Created by mrahman on 9/5/15.
- */
+
 public class ButtonTest extends Buttons {
 
 Buttons buttons;

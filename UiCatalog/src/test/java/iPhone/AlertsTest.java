@@ -51,5 +51,18 @@ public class AlertsTest extends Base {
         alerts().showSecureTextInput();
         sleep(2);
     }
+    @Test
+    public void testUiActSheet()throws InterruptedException{
+        alerts().uiActionSheet2();
+        sleep(2);
+    }
+    @Test
+    public void testUiActionSheet3(){
+        alerts().uiActionSheet3();
+    }
+    @Test
+    public void testUiAlertV1(){
+        alerts().uiAlertView1();
+    }
 
 }
